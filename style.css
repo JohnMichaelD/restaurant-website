@@ -2,6 +2,30 @@ html {
     font-size: 62.5%;
 }
 
+/*////////////////////////
+Header
+////////////////////////*/
+.headerNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+ul.headerNav li {
+    list-style: none;
+}
+
+/*////////////////////////
+Welcome Section
+////////////////////////*/
+.welcomeAndHeaderSection{
+    background-image: url(assets/stockImages/foodplatter-unsplash.jpg) cover 0 0;
+    height: 54rem;
+}
+/*////////////////////////
+Welcome Section
+////////////////////////*/
+
 
 /*////////////////////////
 Media Queries
